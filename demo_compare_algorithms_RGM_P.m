@@ -7,7 +7,7 @@ addpath(genpath('utilsnufft'))
 addpath(genpath('utilscryoem'))
 addpath(genpath('other_file'))
 addpath(genpath('Objvalue_err'))
-addpath(genpath('LUDnew2'))
+addpath(genpath('LUDnew'))
 addpath(genpath('Rot_RGM'))
 addpath(genpath('PGD_Rot'))
 
