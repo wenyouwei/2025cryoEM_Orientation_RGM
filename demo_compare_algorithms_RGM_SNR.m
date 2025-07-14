@@ -26,9 +26,9 @@ A1     = OpNufft3D(ref_rot,n1); %% Generate simulated projections
 projs1 = A1 * volref1;
 
 %% Add CTF to Projection images
-ctfs      = GenerateCTFset(n);% Add CTF to Projection images
-defocusID = mod(0:K-1,size(ctfs,3))+1;
-ctfprojs  = CTFtimesprojs(projs1, ctfs, defocusID); % add ctfs  to projections
+%ctfs      = GenerateCTFset(n1);% Add CTF to Projection images
+%defocusID = mod(0:K-1,size(ctfs,3))+1;
+%ctfprojs  = CTFtimesprojs(projs1, ctfs, defocusID); % add ctfs  to projections
 
 %% add noise to projection images
 SNR =  1; %[1, 1/2, 1/4, 1/8, 1/16, 1/32]
